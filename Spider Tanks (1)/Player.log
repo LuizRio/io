@@ -1,0 +1,157 @@
+Initialize engine version: 2020.3.38f1 (8f5fde82e2dc)
+[Subsystems] Discovering subsystems at path C:/Program Files/GAMEDIA/Spider Tanks/SpiderTanks_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce MX110 (ID=0x174e)
+    Vendor:   
+    VRAM:     2008 MB
+    Driver:   31.0.15.2892
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+Direct3D: detected that using refresh rate causes time drift. Will stop trusting refresh rate until the game window is moved.
+UnloadTime: 9.731300 ms
+[2023-07-20 01:15:23.376] - Game started - Spider Tanks: 1.3.1.259
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+Couldn't create a Convex Mesh from source mesh "Wheel" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
+Using NullPlatformService. Some features might not be available.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.GameObject:AddComponent()
+PlatformServicesManager:Awake()
+UnityEngine.Object:Instantiate(T)
+UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters:Instantiate(TObject)
+UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider:ProvideInstance(ResourceManager, AsyncOperationHandle`1, InstantiationParameters)
+UnityEngine.ResourceManagement.InstanceOperation:Execute()
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:InvokeExecute()
+System.Action`1:Invoke(T)
+UnityEngine.ResourceManagement.AsyncOperations.<>c__DisplayClass57_0:<add_CompletedTypeless>b__0(AsyncOperationHandle`1)
+System.Action`1:Invoke(T)
+DelegateList`1:Invoke(T)
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:InvokeCompletionEvent()
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:Complete(TObject, Boolean, Exception, Boolean)
+UnityEngine.ResourceManagement.AsyncOperations.ProviderOperation`1:ProviderCompleted(T, Boolean, Exception)
+UnityEngine.ResourceManagement.ResourceProviders.InternalOp:CompleteOperation()
+PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+Discord got an internal error during initialization. It's probably not installed or running.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DiscordManager:Awake()
+UnityEngine.Object:Instantiate(T)
+UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters:Instantiate(TObject)
+UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider:ProvideInstance(ResourceManager, AsyncOperationHandle`1, InstantiationParameters)
+UnityEngine.ResourceManagement.InstanceOperation:Execute()
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:InvokeExecute()
+System.Action`1:Invoke(T)
+UnityEngine.ResourceManagement.AsyncOperations.<>c__DisplayClass57_0:<add_CompletedTypeless>b__0(AsyncOperationHandle`1)
+System.Action`1:Invoke(T)
+DelegateList`1:Invoke(T)
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:InvokeCompletionEvent()
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:Complete(TObject, Boolean, Exception, Boolean)
+UnityEngine.ResourceManagement.AsyncOperations.ProviderOperation`1:ProviderCompleted(T, Boolean, Exception)
+UnityEngine.ResourceManagement.ResourceProviders.InternalOp:CompleteOperation()
+PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+Encryption System is Ready
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+ACTManager:Start()
+
+[2023-07-20 01:15:43.147] [0] [0] CShowLoadingScreen: 
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DebugUtils:LogExcessiveInfo(Object, Boolean, LogType)
+<CShowLoadingScreen>d__46:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+LoadingScreenManager:LoadMainMenu(String, Boolean)
+
+[2023-07-20 01:15:43.153] [0] [0] Start loading content: 
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DebugUtils:LogExcessiveInfo(Object, Boolean, LogType)
+<CLoadContent>d__48:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+LoadingScreenManager:StartLoadingContent(String, List`1, OrderedScenesLoadingOperation)
+LoadingScreenManager:LoadMainMenu(String, Boolean)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 9)
+UnloadTime: 16.851000 ms
+PlayFab login success (title_player_account): 62605532C482BE05 - PlayFabId=6373A84DEBB188DE - GalaId=6483df490272d7fad397afdf - Username=QuickSickù
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+PlayFabManager:OnLoginComplete(LoginResponse)
+PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
+<CPerformWebRequest>d__14`1:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+
+Unloading 83 unused Assets to reduce memory usage. Loaded Objects now: 64285.
+Total: 112.704800 ms (FindLiveObjects: 3.070900 ms CreateObjectMapping: 4.066200 ms MarkObjects: 104.800900 ms  DeleteObjects: 0.765800 ms)
+
+Uploading Crash Report
+NotImplementedException: SetStatisticValue has no implementation for STAT_CURRENT_RANK_SEASON_1
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+Statistics:AddStatisticByName(String, Int32)
+<>c__DisplayClass121_0:<GetStatistics>b__0(GetPlayerCombinedInfoResult)
+PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
+PlayFab.Internal.<>c__DisplayClass23_0`1:<_MakeApiCall>b__1()
+UnityEngine.Events.UnityAction:Invoke()
+PlayFab.Internal.PlayFabUnityHttp:OnResponse(String, CallRequestContainer)
+PlayFab.Internal.<Post>d__12:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[2023-07-20 01:15:54.384] [0] [0] Connected to real-time events
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DebugUtils:LogExcessiveInfo(Object, Boolean, LogType)
+<OnConnected>d__47:MoveNext()
+System.Runtime.CompilerServices.AsyncVoidMethodBuilder:Start(TStateMachine&)
+PlayFabRealTimeEventsManager:OnConnected(HubConnection)
+PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
+BestHTTP.SignalRCore.HubConnection:SetState(ConnectionStates, String, Boolean)
+BestHTTP.SignalRCore.HubConnection:Transport_OnStateChanged(TransportStates, TransportStates)
+System.Action`2:Invoke(T1, T2)
+BestHTTP.SignalRCore.Transports.TransportBase:HandleHandshakeResponse(String)
+BestHTTP.SignalRCore.Transports.WebSocketTransport:OnMessage(WebSocket, String)
+BestHTTP.WebSocket.OnWebSocketMessageDelegate:Invoke(WebSocket, String)
+BestHTTP.WebSocket.OnWebSocketMessageDelegate:Invoke(WebSocket, String)
+BestHTTP.WebSocket.WebSocketResponse:BestHTTP.Core.IProtocol.HandleEvents()
+BestHTTP.Core.ProtocolEventHelper:ProcessQueue()
+BestHTTP.HTTPManager:OnUpdate()
+BestHTTP.HTTPUpdateDelegator:CallOnUpdate()
+
+[2023-07-20 01:16:01.312] [0] [0] Connection to real-time events closed
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DebugUtils:LogExcessiveInfo(Object, Boolean, LogType)
+PlayFabRealTimeEventsManager:OnClosed(HubConnection)
+PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
+BestHTTP.SignalRCore.HubConnection:SetState(ConnectionStates, String, Boolean)
+BestHTTP.SignalRCore.HubConnection:Transport_OnStateChanged(TransportStates, TransportStates)
+System.Action`2:Invoke(T1, T2)
+BestHTTP.SignalRCore.Transports.TransportBase:set_State(TransportStates)
+BestHTTP.WebSocket.OnWebSocketMessageDelegate:Invoke(WebSocket, String)
+BestHTTP.WebSocket.OverHTTP1:OnInternalRequestCallback(HTTPRequest, HTTPResponse)
+Mono.Security.Cryptography.KeyGeneratedEventHandler:Invoke(Object, EventArgs)
+BestHTTP.Core.RequestEventHelper:HandleRequestStateChange(RequestEventInfo)
+BestHTTP.Core.RequestEventHelper:ProcessQueue()
+BestHTTP.HTTPManager:OnUpdate()
+BestHTTP.HTTPManager:OnQuit()
+BestHTTP.HTTPUpdateDelegator:UnityApplication_WantsToQuit()
+System.Func`1:Invoke()
+UnityEngine.Application:Internal_ApplicationWantsToQuit()
+
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 4ea0 -> priority: 1 
+  Thread -> id: 499c -> priority: 1 
+  Thread -> id: 4398 -> priority: 1 
+  Thread -> id: 47d8 -> priority: 1 
+Releasing render texture that is set as Camera.targetTexture!
